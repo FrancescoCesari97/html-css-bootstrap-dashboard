@@ -61,6 +61,8 @@ ul{
     width: calc(100vw - 150px);
 }
 
+/* top-blue-bar */
+
 #top-blue-bar{
    color:aliceblue;
     height: 150px;
@@ -81,3 +83,24 @@ ul{
 }
 
 
+/* main-content */
+
+#main-content{
+  padding: 15px;
+}
+
+
+/* prossime classi */
+
+.prossime-classi{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.titolo-prossime-classi{
+    background-color: #f7f7f7;
+}
+
+.ultima-riga i{
+    
+}
