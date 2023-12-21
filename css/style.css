@@ -22,7 +22,7 @@
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow:auto
 }
 
 
@@ -87,20 +87,76 @@ ul{
 
 #main-content{
   padding: 15px;
+  overflow: scroll;
 }
 
 
 /* prossime classi */
 
 .prossime-classi{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.434);
     border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .titolo-prossime-classi{
     background-color: #f7f7f7;
+    
 }
 
-.ultima-riga i{
+.prima-cella i{
+    background-color:#f26551 ;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.table .color-text{
+    background-color:#1b8855 ;
+    color: aliceblue;
+    padding: 3px;
     
+}
+
+.ROI,
+.Data-inizio,
+.Azioni{
+    width: 10%;
+}
+
+.Stato{
+    width: 15%;
+}
+
+/* FAQ */
+
+.faq{
+    border: 2px solid rgba(0, 0, 0, 0.434);
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.titolo-faq h2{
+    font-size: 1.6rem;
+}
+
+.titolo-faq{
+    background-color: #f7f7f7;
+
+}
+
+/* left-main-content  */
+
+/* todo */
+
+
+.todo{
+    border: 2px solid rgba(0, 0, 0, 0.334);
+    border-radius: 15px;
+    font-size: 12px;
+    
+}
+
+.todo h2{
+    font-size: 1.6rem;
 }
