@@ -1,4 +1,8 @@
 
+:root
+
+
+
 
 /* header */
 
@@ -99,7 +103,37 @@ ul{
 .margin-bottom{
     margin-bottom: 0;
 }
+.plus-button{
+    background-color: none;
+}
+ /* offcanva */
 
+ .foto{
+    border: none;
+ }
+
+ .foto button{
+    border: none;
+    
+ }
+
+ .offcanvas.offcanvas-end {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .button-salva{
+    background-color: #1b72e8;
+    color: aliceblue;
+    padding: 4px;
+   
+  }
+
+  .button-svuota{
+    background-color: #ff8f00;
+    padding: 4px;
+  }
+ 
 
 /* main-content */
 
