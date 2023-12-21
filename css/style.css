@@ -6,6 +6,21 @@
     height: 56px;
 }
 
+.fa-bell{
+    color: #ff8f00;
+}
+
+.fa-question{
+    color: aliceblue;
+    background-color: #5c5959;
+    padding: 5px 7px;
+    font-size: 12px;
+}
+
+.barra-di-ricerca{
+    background-color: #e5e5e5;
+}
+
 /* main-section */
 
 .main-section{
@@ -25,6 +40,9 @@
     overflow:auto
 }
 
+.research-list{
+    color: aliceblue;
+}
 
 
 ul{
@@ -88,7 +106,7 @@ ul{
 #main-content{
   padding: 15px;
   overflow: scroll;
-  
+  height: calc(100% - 150px);
 }
 
 
@@ -99,6 +117,7 @@ ul{
     border-radius: 15px;
     font-size: 12px;
     font-weight: 600;
+    height: 60%;
 }
 
 .titolo-prossime-classi{
@@ -135,6 +154,7 @@ ul{
     border: 2px solid rgba(0, 0, 0, 0.434);
     border-radius: 15px;
     font-size: 12px;
+    
 }
 
 .titolo-faq h2{
